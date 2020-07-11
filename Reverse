@@ -1,0 +1,13 @@
+package practice;
+
+public class ReverseString extends RunAllClass{
+
+public static  void  main(String args[])	{
+	String str = "Input";
+	StringBuffer sb = new StringBuffer(str).reverse();
+	
+	System.out.println(str);
+	return sb;
+ }
+}
+
